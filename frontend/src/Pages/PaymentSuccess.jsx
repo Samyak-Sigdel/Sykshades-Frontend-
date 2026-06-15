@@ -17,7 +17,7 @@ export const PaymentSuccess = () => {
             }
 
             try {
-                const res = await fetch('http://localhost:4000/esewa/verify', {
+                const res = await fetch('https://sykshades-backend.onrender.com/esewa/verify', {
                     method: 'POST',
                     headers: { 'Content-Type': 'application/json' },
                     body: JSON.stringify({ booking_id, correlation_id }),

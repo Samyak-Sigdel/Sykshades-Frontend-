@@ -9,7 +9,7 @@ export const LoginSIgnup = () => {
 
   const googleAuth = async (credentialResponse) => {
     let responseData;
-    await fetch('http://localhost:4000/google-login', {
+    await fetch('https://sykshades-backend.onrender.com/google-login', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ token: credentialResponse.credential }),
@@ -30,7 +30,7 @@ export const LoginSIgnup = () => {
 
   const login = async () => {
     let responseData;
-    await fetch('http://localhost:4000/login', {
+    await fetch('https://sykshades-backend.onrender.com/login', {
       method: 'POST',
       headers: { Accept: 'application/form-data', 'Content-Type': 'application/json' },
       body: JSON.stringify(formData),
@@ -47,7 +47,7 @@ export const LoginSIgnup = () => {
 
   const signup = async () => {
     let responseData;
-    await fetch('http://localhost:4000/signup', {
+    await fetch('https://sykshades-backend.onrender.com/signup', {
       method: 'POST',
       headers: { Accept: 'application/form-data', 'Content-Type': 'application/json' },
       body: JSON.stringify(formData),

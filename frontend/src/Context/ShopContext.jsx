@@ -16,12 +16,12 @@ const ShopContextProvider = (props) => {
     const [cartItems, setCartItems] = useState(getDefaultCart());
 
     useEffect(() => {
-        fetch('http://localhost:4000/allproduct')
+        fetch('https://sykshades-backend.onrender.com/allproduct')
             .then((response) => response.json())
             .then((data) => setAll_product(data));
 
         if (localStorage.getItem('auth-token')) {
-            fetch('http://localhost:4000/getcart', {
+            fetch('https://sykshades-backend.onrender.com/getcart', {
                 method: 'POST',
                 headers: {
                     Accept: 'application/json',
@@ -42,7 +42,7 @@ const ShopContextProvider = (props) => {
         }));
 
         if (localStorage.getItem('auth-token')) {
-            fetch('http://localhost:4000/addtocart', {
+            fetch('https://sykshades-backend.onrender.com/addtocart', {
                 method: 'POST',
                 headers: {
                     Accept: 'application/json',
@@ -63,7 +63,7 @@ const ShopContextProvider = (props) => {
         }));
 
         if (localStorage.getItem('auth-token')) {
-            fetch('http://localhost:4000/removefromcart', {
+            fetch('https://sykshades-backend.onrender.com/removefromcart', {
                 method: 'POST',
                 headers: {
                     Accept: 'application/json',

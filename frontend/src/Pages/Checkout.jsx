@@ -18,7 +18,7 @@ export const Checkout = () => {
         try {
             const orderId = `ORD-${Date.now()}`
 
-            const res = await fetch('http://localhost:4000/esewa/initiate', {
+            const res = await fetch('https://sykshades-backend.onrender.com/esewa/initiate', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({
