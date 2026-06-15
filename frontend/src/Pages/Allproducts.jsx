@@ -17,7 +17,9 @@ const SUBCATEGORIES = {
   shoes: ['Heels', 'Sneakers', 'Slippers', 'Sandals', 'Clogs', 'Formal', 'Sports', 'Loafers', 'Boots'],
 }
 
-export const AllProducts = () => {
+
+
+export const Allproducts = () => {
   const { all_product } = useContext(ShopContext)
   const [searchParams, setSearchParams] = useSearchParams()
 
