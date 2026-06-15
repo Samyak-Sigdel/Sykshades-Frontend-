@@ -7,7 +7,8 @@ import { Product } from './Pages/Product';
 import { LoginSIgnup } from './Pages/LoginSIgnup';
 import { Cart } from './Pages/Cart';
 import { Shop } from './Pages/Shop';
-import { AllProducts } from './Pages/Allproducts';
+
+import  { Allproducts } from './Pages/Allproducts';
 import { Wishlist } from './Pages/Wishlist';
 import { AboutUs } from './Pages/AboutUs';
 import { Checkout } from './Pages/Checkout';
@@ -41,7 +42,7 @@ function App() {
         />
         <Routes>
           <Route path='/' element={<Shop />} />
-          <Route path='/shop' element={<AllProducts />} />
+          <Route path='/shop' element={<Allproducts />} />
 
           <Route path="/product" element={<Product />}>
             <Route path=':productId' element={<Product />} />
