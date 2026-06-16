@@ -63,7 +63,7 @@ export default function ProductDisplay(props) {
                 <div className="flex items-baseline gap-4 mb-6">
                     <span className="text-xl font-light text-black">Rs {product.new_price}</span>
                     {product.old_price && (
-                        <span className="text-sm text-gray-400 line-through font-light">
+                        <span className="text-base text-gray-400 line-through font-light">
                             Rs {product.old_price}
                         </span>
                     )}
@@ -71,9 +71,9 @@ export default function ProductDisplay(props) {
 
                 <div className="border-t border-gray-200 mb-6" />
 
-                <p className="text-gray-500 text-sm leading-[1.9] font-light mb-8">
+                <p className="text-gray-500 text-base leading-[1.9] font-light mb-8">
                     A thoughtfully constructed piece built for everyday wear. Clean lines, quality fabric,
-                    and a relaxed fit make this a versatile staple — designed to complement your wardrobe
+                    and a relaxed fit make this a versatile staple  designed to complement your wardrobe
                     across seasons without compromise.
                 </p>
 
@@ -117,7 +117,7 @@ export default function ProductDisplay(props) {
                         >
                             −
                         </button>
-                        <span className="w-10 h-full flex items-center justify-center text-sm font-light border-x border-gray-300 select-none">
+                        <span className="w-10 h-full flex items-center justify-center text-base font-light border-x border-gray-300 select-none">
                             {quantity}
                         </span>
                         <button

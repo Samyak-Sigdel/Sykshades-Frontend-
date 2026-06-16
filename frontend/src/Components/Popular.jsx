@@ -14,7 +14,7 @@ export const Popular = () => {
     <div className='max-w-7xl mx-auto px-4 sm:px-8 py-16'>
 
       <div className="mb-10">
-        <p className="text-xs uppercase tracking-[0.2em] text-gray-400 font-medium mb-3">
+        <p className="text-base uppercase tracking-[0.2em] text-gray-400 font-medium mb-3">
           Trending Now
         </p>
         <h1 className="font-serif text-4xl sm:text-5xl font-light text-black tracking-tight">

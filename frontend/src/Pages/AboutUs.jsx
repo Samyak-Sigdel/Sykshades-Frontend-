@@ -39,7 +39,7 @@ export const AboutUs = () => {
             </h2>
           </div>
           <div>
-            <p className="text-sm font-light text-gray-500 leading-[1.9]">
+            <p className="text-base font-light text-gray-500 leading-[1.9]">
               SYKSHADES was founded with a simple belief  fashion should feel effortless,
               timeless, and accessible. Every piece in our collection is curated with care,
               balancing modern trends with enduring style that transcends seasons.
@@ -87,7 +87,7 @@ export const AboutUs = () => {
               <h3 className="font-serif text-2xl font-light text-black tracking-tight">
                 {title}
               </h3>
-              <p className="text-sm font-light text-gray-500 leading-[1.9]">
+              <p className="text-base font-light text-gray-500 leading-[1.9]">
                 {body}
               </p>
             </div>
@@ -116,12 +116,12 @@ export const AboutUs = () => {
               <span className="font-medium">Intention</span>
             </h2>
             <div className="border-t border-gray-200 pt-6 flex flex-col gap-4">
-              <p className="text-sm font-light text-gray-500 leading-[1.9]">
+              <p className="text-base font-light text-gray-500 leading-[1.9]">
                 We work with quality materials and trusted craftsmanship to bring you clothing
                 that doesn't just look good  it lasts. From our warehouse to your wardrobe,
                 every step of your experience is designed to be smooth, secure, and satisfying.
               </p>
-              <p className="text-sm font-light text-gray-500 leading-[1.9]">
+              <p className="text-base font-light text-gray-500 leading-[1.9]">
                 Each collection is thoughtfully assembled  not chased. We take the time to
                 get things right, so you can shop with confidence every single time.
               </p>
@@ -166,7 +166,7 @@ export const AboutUs = () => {
               Thank You For <br />
               <span className="font-medium">Being Here</span>
             </h2>
-            <p className="text-sm font-light text-gray-500 leading-[1.9]">
+            <p className="text-base font-light text-gray-500 leading-[1.9]">
               We're grateful for every person who chooses SYKSHADES.
               We're just getting started and the best is yet to come.
             </p>
