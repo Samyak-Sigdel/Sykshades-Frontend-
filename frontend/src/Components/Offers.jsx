@@ -21,7 +21,7 @@ export const Offers = () => {
             <span className="font-medium">For You</span>
           </h1>
 
-          <p className="text-gray-300 text-sm font-light tracking-wide">
+          <p className="text-gray-300 text-base font-light tracking-wide">
             Only on best seller products
           </p>
 
